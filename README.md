@@ -77,3 +77,4 @@ Then run:
         play()
     else: 
         print("\nThanks for playing!")
+        quit()

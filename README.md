@@ -1,5 +1,37 @@
-# Snake-Water-Gun
-# Its like rock, paper scissors but with snake water and gun!
+# 🐍 Snake Water Gun Game (Python)
+
+A fun and simple **Python-based console game** inspired by Rock-Paper-Scissors!  
+Challenge the computer in multiple rounds of **Snake 🐍, Water 💧, and Gun 🔫** — and see who wins more.
+
+---
+
+## 🎮 How to Play
+- Type:
+  - `s` for **Snake**
+  - `w` for **Water**
+  - `g` for **Gun**
+- The rules are simple:
+  - Snake drinks Water → **Snake wins**
+  - Gun kills Snake → **Gun wins**
+  - Water douses Gun → **Water wins**
+  - Same choices → **Draw**
+
+---
+
+## 🧠 Features
+- Choose the number of rounds to play  
+- Tracks wins, losses, and draws  
+- Option to **play again**  
+- Prevents invalid inputs  
+- Random computer choices using `random` module  
+
+---
+
+## 🚀 Run the Game
+Make sure you have Python installed.  
+Then run:
+```bash
+
     import random
     
     computer = None
